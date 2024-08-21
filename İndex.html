@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b15.png" alt="Instagram">
+            </div>
+            <h1>Giriş Yap</h1>
+            <form action="dashboard.html" method="POST">
+                <div class="textbox">
+                    <input type="text" placeholder="Kullanıcı Adı veya E-posta" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Şifre" name="password" required>
+                </div>
+                <button type="submit" class="btn">Giriş Yap</button>
+            </form>
+            <div class="or-separator">
+                <span>veya</span>
+            </div>
+            <div class="facebook-login">
+                <button class="facebook-btn">Facebook ile Giriş Yap</button>
+            </div>
+            <div class="register-link">
+                <p>Hesabın yok mu? <a href="register.html">Kayıt Ol</a></p>
+            </div>
+            <div class="forgot-password">
+                <a href="forgot-password.html">Şifremi Unuttum</a>
+            </div>
+        </div>
+    </div>
+    <div class="get-app">
+        <p>Instagram'ı mobil cihazınızda deneyin.</p>
+        <div class="app-store">
+            <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginpage&mt=8&vt=lo">
+                <img src="https://www.instagram.com/static/images/appstore_download.png/7a252de00b15.png" alt="App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_medium%3DloginPage%26utm_campaign%3DloginPage">
+                <img src="https://www.instagram.com/static/images/googleplay_download.png/7a252de00b15.png" alt="Google Play">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
